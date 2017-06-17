@@ -13,17 +13,17 @@ This API is best served with [Docker](https://www.docker.com/)
 You'll need to pass the enviornment variables like below (be sure to fill out the actual values) for the API keys/tokens.
 ```bash
 docker build -t banno-twitter .
-docker run -d -p 8080:8080 --name=banno-twitter banno-twitter --env consumer_key="" --env consumer_secret="" --env access_token="" --env access_token_secret=""
+docker run -d -p 8080:8080 --name=banno-twitter banno-twitter --env consumer_key= --env consumer_secret= --env access_token= --env access_token_secret=
 ```
 
 What about [Docker Compose](https://docs.docker.com/compose/)?
 
 First create the apikeys.env file (filling out the key/token values ;)) to provide the API keys/tokens to the application
 ```bash
-consumer_key=""
-consumer_secret=""
-access_token=""
-access_token_secret=""
+consumer_key=
+consumer_secret=
+access_token=
+access_token_secret=
 ```
 
 ```bash
