@@ -1,0 +1,20 @@
+{
+  "name": "banno-assessment-twitter-stream",
+  "version": "1.0.0",
+  "description": "Consume Twitter Stream API to gather metrics",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "emoji-data": "0.2.0",
+    "hapi": "16.4.3",
+    "lodash": "4.17.4",
+    "twit": "2.2.9"
+  }
+}
